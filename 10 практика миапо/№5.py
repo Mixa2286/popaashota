@@ -1,6 +1,6 @@
-def get_squares(numbers, result=None):
-    if result is None:
-        result = []
+def get_squares(numbers):
+
+    result = []
     for n in numbers:
         result.append(n * n)
     return result
